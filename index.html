@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="index.html">BRUGERE</a></li>
+                <li><a href="index.html">OVERSIGT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="content">
+            <form action="includes/IndsetBrugerInfo.inc.php" method="POST">
+                <input type="text" name="Navn" placeholder="Navn">
+                <input type="text" name="Alder" placeholder="Alder">
+                <input type="text" name="Email" placeholder="Email">
+                <input type="text" name="SkoStr" placeholder="Sko størrelse">
+                <input type="submit" name="submit-btn">
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <ul>
+            <li>H1 Skal Opgave: Skostørrelse.</li>
+            <li>Nicolai H Jacobsen.</li>
+            <li>30-07-2019.</li>
+        </ul>
+    </footer>
+</body>
+</html>
