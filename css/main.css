@@ -1,0 +1,99 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+body
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50px auto 100px;
+    grid-template-areas: 
+    "Nav Nav Nav"
+    "Con Con Con"
+    "Foot Foot Foot"
+
+}
+
+header
+{
+    background-color: #333;
+    grid-area: Nav;
+}
+
+.navbar ul
+{
+    overflow: hidden;
+    list-style-type: none;
+    margin-left: 1%;
+}
+
+.navbar li a
+{
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: bold;
+    float: left;
+    color: #fff;
+    padding: 15px;
+}
+
+.navbar li a:hover
+{
+    color: aquamarine;
+}
+
+main
+{
+    grid-area: Con
+}
+
+.OpretBrugerInfo
+{
+   text-align: center;
+}
+
+h1
+{
+    margin-top: 2%;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.OpretBrugerInfo input
+{
+    font-size: 1em;
+    margin-top: 2%;
+}
+
+#SBE
+{
+    display: none;
+}
+
+.sqlData
+{
+    margin: 25px;
+}
+
+#SSG div
+{
+    margin: 2%;
+}
+
+footer
+{
+    grid-area: Foot;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer li
+{
+    list-style: none;
+}
