@@ -10,7 +10,6 @@
     <script src="JS/SideManagement.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script src="JS/SkoGraf.js"></script>
-    
 </head>
 <body>
     <header>
@@ -35,14 +34,17 @@
                     <input type="submit" id="subBI" name="submit-btn">
                 </form>
             </article>
+            
             <article class="SeBrugerInfo" id="SBE">
                 <h1>brugere!</h1>
                 <div class="sqlData">
                     <?php include 'includes/BrugerInfo.inc.php'; ?>
+                    
                 </div>              
             </article>
             <article class="SkoStrGraf" id="SSG">
                 <h1>Her kan du se en graf over sko stoerelser!</h1>
+                <?php include 'includes/BrugerGraf.inc.php'; ?>
                 <div id="columnchart_material" style="width: 800px; height: 500px;"></div>
             </article>
             
